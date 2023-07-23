@@ -77,6 +77,7 @@ return (
         <div className="name">
         Absolutecore &copy; 2023 All rights reserved
         </div>
+        <div className="handles">
         {
           icons.map((item) =>
             <Link to={item.link} target="_blank">
@@ -84,6 +85,7 @@ return (
             </Link>
           )
         }
+        </div>
       </div>
     </div>
     
@@ -150,13 +152,19 @@ padding: 70px;
 .name {
   color: rgb(133, 132, 132);
 }
+
+.handles {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
 .icons-footer {
 display: flex;
 justify-content: space-between;
 width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 1023px) {
     width: 100%;
     margin: 0%;
 
@@ -170,7 +178,7 @@ width: 100%;
 }
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
     padding: 20px 0px 0px 0px;
 
 .contact-title {
@@ -186,6 +194,15 @@ width: 100%;
 .contact-detail {
     margin-top: 35px;
 }
+.icons-footer {
+  flex-direction: column;
+  }
+  .handles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
 }
 `
 
