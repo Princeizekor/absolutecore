@@ -8,11 +8,11 @@ function Intro() {
       <div className="wrapper-intro">
         <div className="greetings">
           <h1>Hi, I am Izekor Osas Lucky, Electrical/Automation engineer </h1>
-          <button>Email me</button>
-          <div><Link>Linkdln</Link>/<Link>Facebook</Link>/<Link>Twitter</Link></div>
+          <a href="mailto:osascore@gmail.com, izekor.lo@gmail.com"><button>Email me</button></a>
+          <div><a href='linkedin.com/in/izekor-lucky-4a6813164'>Linkdln</a>/<Link>Facebook</Link>/<Link>Twitter</Link></div>
         </div>
         <div className='profile-image'>
-          <img src="/images/istockphoto-1149054436-612x612.jpg" alt="profie-image" />
+          <img src="/images/IMG-20230722-WA0029 (1).jpg" alt="profie-image" />
         </div>
       </div>
     </Wrapper>
@@ -22,7 +22,7 @@ function Intro() {
 const Wrapper = styled.div`
     width: 100%;
     height: 620px;
-    background-color: silver;
+    background-color: black;
     .wrapper-intro {
       max-width: 1440px;
       height: 100%;
@@ -30,6 +30,7 @@ const Wrapper = styled.div`
       display: flex;
       padding: 50px 0px 50px 50px;
       align-items: center;
+      color: whitesmoke;
     }
     .greetings {
       position: relative;
@@ -48,13 +49,16 @@ const Wrapper = styled.div`
         height: 50px;
         border: none;
         outline: none;
-        background-color: purple;
+        background-color: rgb(128, 29, 221);
         font-size: 15px;
         color: white;
       }
       div {
         position: absolute;
         bottom: 50px;
+        a {
+          color: rgb(128, 29, 221);
+        }
       }
     }
     .profile-image {
@@ -72,7 +76,6 @@ const Wrapper = styled.div`
     @media (max-width: 1023px) {
       width: 100%;
     height: 620px;
-    background-color: silver;
     .wrapper-intro {
       width: 100%;
       margin: 0%;
@@ -118,6 +121,17 @@ const Wrapper = styled.div`
         border-radius: 50%;
       }
     }
+    }
+    @media (max-width: 480px) {
+      .greetings {
+        h1 {
+          font-size: 20px;
+        }
+        button {
+          width: 100px;
+          height: 40px;
+        }
+      }
     }
 `
 
