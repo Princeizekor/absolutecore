@@ -13,11 +13,11 @@ function About() {
         <img src={img} alt="my profile image" className='profile-image' />
         <div className='profile-details'>
           <p>{about}</p>
-          <div class="profile-buttons">
+          <div className="profile-buttons">
             {/* <button class="hire-button">
               <a href="#contact">HIRE ME</a>
             </button> */}
-            <button class="cv-button">
+            <button className="cv-button">
               <a href={resume}>DOWNLOAD CV</a>
             </button>
           </div>

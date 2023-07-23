@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 
 function Intro() {
@@ -9,7 +8,7 @@ function Intro() {
         <div className="greetings">
           <h1>Hi, I am Izekor Osas Lucky, Electrical/Automation engineer </h1>
           <a href="mailto:osascore@gmail.com, izekor.lo@gmail.com"><button>Email me</button></a>
-          <div><a href='linkedin.com/in/izekor-lucky-4a6813164'>Linkdln</a>/<Link>Facebook</Link>/<Link>Twitter</Link></div>
+          <div><a href='linkedin.com/in/izekor-lucky-4a6813164'>Linkdln</a>/<a>Facebook</a>/<a>Twitter</a></div>
         </div>
         <div className='profile-image'>
           <img src="/images/IMG-20230722-WA0029 (1).jpg" alt="profie-image" />

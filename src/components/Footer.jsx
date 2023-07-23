@@ -76,13 +76,13 @@ return (
     <div className="links">
       <div className="icons-footer">
         <div className="name">
-        Absolutecore &copy; 2023 All rights reserved
+        &copy; Izekor Lucky 
         </div>
         <div className="handles">
         {
-          icons.map((item) =>
+          icons.map((item, i) =>
             // <Link to={item.link} target="_blank">
-              <img src={item.image} alt="Facebook icon" />
+              <img src={item.image} alt="Facebook icon" key={i}/>
             // </Link>
           )
         }
