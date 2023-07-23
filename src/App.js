@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Footer from './components/Footer';
+import Education from './pages/Education';
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
             <Intro />
             <About />
+            <Education />
             {/* <Contact /> */}
             {/* <Experience /> */}
         <Footer />

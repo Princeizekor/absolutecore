@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { styled } from 'styled-components'
 
 function Navbar() {
@@ -11,6 +10,7 @@ function Navbar() {
       </a>
       <ul className="list" style={open !== false ? { left: 0 } : { left: '-100%' }}>
         <li onClick={() => setOpen(!open)}><a href="#about" >About</a></li>
+        <li onClick={() => setOpen(!open)}><a href="#education" >Education</a></li>
         <li onClick={() => setOpen(!open)}><a href="#" >Experience</a></li>
         <li onClick={() => setOpen(!open)}><a href="#contact" >Contact</a></li>
       </ul>
