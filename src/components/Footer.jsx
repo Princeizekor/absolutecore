@@ -81,9 +81,9 @@ return (
         <div className="handles">
         {
           icons.map((item) =>
-            <Link to={item.link} target="_blank">
+            // <Link to={item.link} target="_blank">
               <img src={item.image} alt="Facebook icon" />
-            </Link>
+            // </Link>
           )
         }
         </div>
