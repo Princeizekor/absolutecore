@@ -55,7 +55,7 @@ const icons = [
 ]
 const discuss = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.`
 return (
-  <Wrapper>
+  <Wrapper id='contact'>
     <h1>Contact</h1>
     <h2 className="contact-title">I'd Love To Hear From You</h2>
     {/* <p className="discuss">My personal and professional referees are available on request</p> */}
