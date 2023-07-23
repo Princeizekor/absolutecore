@@ -6,8 +6,8 @@ function Navbar() {
   return (
     <Wrapper>
       <a href="#">
-        <img src="/images/My project-1 (2).png" alt="logo" />
-        {/* <h1>O<span className="logo">SAS.</span></h1> */}
+        {/* <img src="/images/My project-1 (2).png" alt="logo" /> */}
+        <h1>O<span className="logo">SAS.</span></h1>
       </a>
       <ul className="list" style={open !== false ? { left: 0 } : { left: '-100%' }}>
         <li onClick={() => setOpen(!open)}><a href="#about" >About</a></li>
