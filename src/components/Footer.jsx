@@ -58,7 +58,7 @@ return (
   <Wrapper>
     <h1>Contact</h1>
     <h2 className="contact-title">I'd Love To Hear From You</h2>
-    <p className="discuss">I'm always open to discussing web development and programming in general.</p>
+    {/* <p className="discuss">My personal and professional referees are available on request</p> */}
     <div className="hire">
       {
         ContactData.map((item, i) =>
