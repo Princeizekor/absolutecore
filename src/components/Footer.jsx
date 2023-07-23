@@ -55,7 +55,8 @@ const icons = [
 ]
 const discuss = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.`
 return (
-  <Wrapper id='contact'>
+  <Wrapper>
+    <div id="contact">
     <h1>Contact</h1>
     <h2 className="contact-title">I'd Love To Hear From You</h2>
     {/* <p className="discuss">My personal and professional referees are available on request</p> */}
@@ -88,19 +89,21 @@ return (
         </div>
       </div>
     </div>
-    
+    </div>
   </Wrapper>
 )
 }
 
 const Wrapper = styled.div `
-color: rgb(128, 29, 221);
+background-color: black;
+#contact {
+  color: rgb(128, 29, 221);
 text-align: center;
 padding: 40px 0px 0px 0px;
 max-width: 1440px;
 margin: 0% auto;
 height: auto;
-background-color: black;
+}
 h1 {
 margin: 0%;
 font-size: 40px;
@@ -165,8 +168,10 @@ width: 100%;
 }
 
 @media (max-width: 1023px) {
-    width: 100%;
+    #contact {
+      width: 100%;
     margin: 0%;
+    }
 
 .hire {
     width: 100%;
@@ -179,7 +184,9 @@ width: 100%;
 }
 
 @media (max-width: 767px) {
-    padding: 20px 0px 0px 0px;
+    #contact {
+      padding: 20px 0px 0px 0px;
+    }
 
 .contact-title {
     font-size: 20px;
